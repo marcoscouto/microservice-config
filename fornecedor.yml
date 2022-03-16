@@ -6,3 +6,4 @@ spring:
     hibernate:
       ddl-auto: create
     database-platform: org.hibernate.dialect.MySQL5Dialect
+    defer-datasource-initialization: true
